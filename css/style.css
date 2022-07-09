@@ -58,7 +58,8 @@ body {
 .text-h4 {
   font-family: "Oswald";
   font-weight: 500;
-  font-size: 24px;
+  font-size: 21px;
+  letter-spacing: 0.02em;
 }
 .text-p {
   font-family: "Open Sans";
@@ -187,6 +188,10 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+  .header__title{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -333,7 +338,65 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .request__flex{
+  .request__flex {
     flex-wrap: wrap;
+  }
+}
+
+/* services section */
+
+.services {
+  padding: 150px 0;
+}
+
+.services__h2,
+.services__h4 {
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services__h2 {
+  margin-bottom: 55px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.services__grid-item {
+  background-color: #f7f7f7;
+  padding: 59px 0;
+  width: 350px;
+}
+.services__icon {
+  margin: 0 auto 21px;
+}
+
+.services__h4 {
+  margin: 0 auto;
+  max-width: 172px;
+}
+
+@media screen and (max-width: 1280px) {
+  .services {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .services__grid-item {
+   width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
