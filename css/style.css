@@ -271,3 +271,69 @@ body {
     margin-bottom: 0;
   }
 }
+
+/* Request section */
+.request {
+  background-color: var(--accent-color);
+  padding-top: 30px;
+}
+.request__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.request__flex-left {
+  color: var(--white-color);
+  padding-bottom: 45px;
+  text-transform: uppercase;
+}
+.request__h4 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.02em;
+  margin-bottom: 7px;
+}
+.request__h5 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+.request__flex-right {
+}
+.request__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  background-color: var(--white-color);
+  color: #000000;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 14px 30px;
+}
+
+.request__btn:hover {
+  background-color: #ececec;
+}
+
+.request__icon {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+  .request {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .request__flex{
+    flex-wrap: wrap;
+  }
+}
