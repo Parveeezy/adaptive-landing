@@ -312,27 +312,6 @@ body {
   margin-bottom: 40px;
   max-width: 730px;
 }
-.question__h3.close {
-  margin-bottom: 31px;
-}
-.question__h3.open::before,
-.question__h3.close::before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-image: url(../img/arrow.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 14px;
-  cursor: pointer;
-}
-.question__h3.open::before {
-  transform: rotate(-90deg);
-}
-.question__h3.close + .question__p {
-  display: none;
-}
 /* partners section */
 .partners {
   background-color: var(--dark-color);
