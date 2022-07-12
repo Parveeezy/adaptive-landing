@@ -233,8 +233,6 @@ body {
   font-size: 24px;
   letter-spacing: 0.02em;
 }
-.request__flex-right {
-}
 .request__btn {
   margin-top: 20px;
   display: flex;
@@ -290,17 +288,11 @@ body {
   max-width: 172px;
 }
 /* portfolio section */
-.portfolio {
-}
 .portfolio__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   gap: 0;
-}
-.portfolio__grid-item {
-}
-.portfolio__img {
 }
 /* section questions */
 .questions {
@@ -309,10 +301,6 @@ body {
 }
 .questions .section__h2 {
   margin-bottom: 50px;
-}
-.question__items {
-}
-.question__item {
 }
 .question__h3 {
   text-transform: uppercase;
